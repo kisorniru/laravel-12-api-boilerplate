@@ -12,7 +12,7 @@ class CustomerController extends Controller
      */
     public function index()
     {
-        //
+        return 'Hello Customer!';
     }
 
     /**
@@ -36,7 +36,7 @@ class CustomerController extends Controller
      */
     public function show(Customer $customer)
     {
-        //
+        return 'Show Customer! ' . $customer->name;
     }
 
     /**
